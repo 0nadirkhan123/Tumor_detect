@@ -1,0 +1,42 @@
+# HOW TO RUN!
+
+## 🔧 Setup Instructions
+
+1. **Install Python 3.9** (if not already):
+   https://www.python.org/downloads/release/python-390/
+
+2. **Create a virtual environment** in the project folder:
+  
+   >python3.9 -m venv venv
+   >venv\Scripts\activate //(TO activate the virtual environment)
+   
+
+3. **Install required packages**:
+  
+   pip install flask tensorflow pillow
+   
+
+4. **Project folder structure** should be like:
+   
+   CANCER/
+   ├── app.py
+   ├── brain_tuor_model.keras
+   ├── static/
+   └── templates/
+       └── index.html
+  
+
+5. **Run the Flask app**:
+   
+   python app.py
+  
+
+6. **Open your browser** and visit:
+   
+   http://127.0.0.1:5000/
+ 
+
+## 🧪 Testing
+
+- Upload a `.jpg` or `.png` MRI image
+- View prediction and uploaded image
