@@ -32,25 +32,30 @@ project/
 └── README.md
 ```
 
+---
 
 ## 🚀 How to Run
 
 ### 1. Setup Virtual Environment
 
+```bash
 # (Windows)
->python -m venv venv
->venv\Scripts\activate
+python -m venv venv
+venv\Scripts\activate
 
 # Install required packages
->pip install flask tensorflow pillow
-
+pip install flask tensorflow pillow
+```
 
 ### 2. Start the App
 
->python app.py
+```bash
+python app.py
+```
 
+Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
->Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
+---
 
 ## 🖼 How It Works
 
@@ -81,4 +86,4 @@ project/
 ## 👤 Author
 
 Created by [Mohammed Nadir Khan]  
-
+MIT License
