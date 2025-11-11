@@ -40,7 +40,7 @@ project/
 
 ```bash
 # (Windows)
-python -m venv venv
+py -3.9 -m venv venv
 venv\Scripts\activate
 
 # Install required packages
